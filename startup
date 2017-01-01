@@ -1,0 +1,7 @@
+#!/bin/bash
+# Use this script to download and install a dev enviornment for a remote Ubuntu instance
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get build-essential libssl-dev libffi-dev python-dev
+sudo apt-get update
