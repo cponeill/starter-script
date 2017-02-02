@@ -1,6 +1,6 @@
 # starter-script
 
-This shell script will load everything you need to get a new Ubuntu (14.04) instance Python development ready.
+This shell script will load everything you need to get a new Ubuntu (14.04) instance Python development ready. This script can be used with any AWS or Digital Ocean instance. 
 
 ## Quick Start
 
