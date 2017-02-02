@@ -9,3 +9,5 @@ $ cd starter-script
 $ chmod 755 startup
 $ ./startup
 ```
+
+Once this script has finished running your ubuntu instance should be all set up and ready to go.
