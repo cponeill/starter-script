@@ -6,3 +6,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get build-essential libssl-dev libffi-dev python-dev
 sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
 sudo apt-get update
+
+# Run the following line if you want to make your linix box machine-payable.
+curl https://21.co | sh
+
