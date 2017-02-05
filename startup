@@ -9,4 +9,4 @@ sudo apt-get update
 
 # Run the following line if you want to make your linix box machine-payable.
 curl https://21.co | sh
-
+sudo apt-get update
