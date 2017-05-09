@@ -6,14 +6,20 @@ df -h .
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
-sudo apt-get update
 
 # Run the following line if you want to make your linix box machine-payable.
 curl https://21.co | sh
 sudo apt-get update
 
-# Install Heroku-cli toolbelt
+# Install Heroku-cli toolbelt.
 sudo add-apt-repository "deb https://cli-assets.heroku.com/branches/stable/apt ./"
-$ curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
-$ sudo apt-get update
-$ sudo apt-get install heroku
+curl -L https://cli-assets.heroku.com/apt/release.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install heroku
+
+# Install Node.js and Node Package Manager (npm).
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Finish up installations and updates.
+sudo apt-get update
