@@ -23,3 +23,7 @@ sudo apt-get install -y nodejs
 
 # Finish up installations and updates.
 sudo apt-get update
+
+node --version
+npm --version
+21 --version
