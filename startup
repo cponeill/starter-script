@@ -22,8 +22,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 # Finish up installations and updates.
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update
 
-node --version
-npm --version
-21 --version
+echo "You have now finished your installs."
+echo "NOW GET TO WORK!"
