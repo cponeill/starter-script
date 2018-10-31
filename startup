@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # Use this script to download and install a dev enviornment for a remote Ubuntu instance
 # Please feel free to add more to this script as you see fit.
 
